@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,h2,h3,h4,h5,h6,span{
+  color:#242424;
+  text-align : center;
+  line-height:1.25;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
+  position: relative;
+  transition: opacity 300ms ease;
 }
 
-.App-header {
-  background-color: #282c34;
+i:hover{
+  opacity: 0.7;
+}
+
+h1{
+  font-size: 36px;
+}
+
+p{
+  line-height: 1.5;
+  font-size:16px;
+}
+
+#about-me{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow-x: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.flex-1{
+  flex:1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.flex{
+  display: flex;
+}
+
+.row{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text--purple{
+  color:#6030b1;
+}
+
+section:nth-child(even){
+  background-color: #f8f8f8;
+}
+
+.container{
+  padding:40px 0;
+}
+
+.section__title{
+  margin-bottom: 20px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.link__hover-effect:after{
+  content:"";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  bottom:-3px;
+  right:0;
+  transition: all 300ms ease;
+}
+
+.link__hover-effect:hover:after{
+  width: 100%;
+  left:0;
+}
+
+.link__hover-effect--white:after{
+  background-color: #fff;
+}
+
+.link__hover-effect--black:after{
+  background-color: black;
+}
+
+/* small phones, tablets,large smartphones */
+@media(max-width:768px){
+  nav{
+    height:68px;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1{
+    font-size:28px;
+  }
+
+  .about-me__info--para{
+    font-size:18px;
   }
 }
+
