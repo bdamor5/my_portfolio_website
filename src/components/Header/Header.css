@@ -103,7 +103,7 @@
 }
 
 .about-me__img{
-    width:100%;
+    width:40%;
     animation: fade-in 1200ms 800ms backwards;
 }
 
@@ -140,5 +140,11 @@
 
     .about-me__info--para{
         font-size: 17px;
+    }
+
+    .about-me__img{
+        width:100%;
+        animation: fade-in 1200ms 800ms backwards;
+        padding: 7% 0;;
     }
 }

@@ -29,13 +29,6 @@ p{
   font-size:16px;
 }
 
-#about-me{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
-}
-
 .flex-1{
   flex:1;
 }

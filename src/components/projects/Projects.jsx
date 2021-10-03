@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css";
-import mernlandingpage from "./mern_landingpage.PNG";
+import blog from "./myblogweb.png";
 import landingpage1 from "./landingpage.PNG";
 import todo from "./todolist.PNG";
 // https://mernuserauth.herokuapp.com/
@@ -19,30 +19,29 @@ const Projects = () => {
             <li className="project">
               <div className="project__wrapper">
                 <img
-                  src={mernlandingpage}
-                  alt="mern landing page"
+                  src={blog}
+                  alt="blog website"
                   className="project__img"
                 />
                 <div className="project__description">
                   <h3 className="project__description--title">
-                    Landing Page with MERN
+                    Blog Website In MERN
                   </h3>
                   <h4 className="project__description--sub-title">
-                    React, Node, Express, MongoDB Atlas, Bcryptjs,
-                    Jsonwebtoken
+                    React, Redux, Redux-thunk, Node, Express, MongoDB Atlas, Bcryptjs,
+                    Jsonwebtoken, Cloudinary
                   </h4>
                   <p className="project__description--para">
-                    A demo landing page website with user sign-in & sign-up
+                    A demo blog website with user sign-in & sign-up
                     functionalities.Once a user creates their account and sign's
-                    in , their user session period on the website will be of 1
-                    minute.User can also edit or delete their profile , only
-                    when they are signed in.User's password are hashed and saved
-                    in the database, so data privacy is also secured.Website is
+                    in , their user session period on the website will be of 5
+                    minutes.Signed-In user can edit their profile , reset their password or delete their profile anytime.Also only signed-in user can create , edit or delete their blogs.Any user can filter blogs according to their interests.All the blog images are uploaded & retrieved from Cloudinary.User's password are hashed and saved
+                    in the database, so data privacy is secured.Website is
                     also fully responsive so it is also mobile friendly.
                   </p>
                   <div className="project__description--links">
                     <a
-                      href="https://github.com/bdamor5/Landingpage_MERN"
+                      href="https://github.com/bdamor5/my_blogwebsite"
                       target="_blank"
                       className="project__description--link"
                       title="Github Project"
@@ -50,7 +49,7 @@ const Projects = () => {
                       <i class="fab fa-github"></i>{" "}
                     </a>
                     <a
-                      href="https://mernuserauth.herokuapp.com/"
+                      href="https://my-blogwebsite5.herokuapp.com/"
                       target="_blank"
                       className="project__description--link"
                       title="Live Project"

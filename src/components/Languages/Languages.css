@@ -1,5 +1,5 @@
 .language_container{
-    padding:50px 10px;
+    padding:0 10px;
     display: grid;
     place-items:center;
 }

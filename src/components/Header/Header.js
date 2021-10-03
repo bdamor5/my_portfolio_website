@@ -35,7 +35,7 @@ const Header = () => {
                     </div>
                 </div>
                 <figure className="about-me__img--container">
-                        <img src={hello} alt="illustration" className='about-me__img'/>
+                        <img src={hello} alt="illustration" className='about-me__img img-fluid mx-auto'/>
                 </figure>                
            </div> 
         </div>
