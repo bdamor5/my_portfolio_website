@@ -3,9 +3,7 @@ import "./projects.css";
 import blog from "./myblogweb.png";
 import landingpage1 from "./landingpage.PNG";
 import todo from "./todolist.PNG";
-// https://mernuserauth.herokuapp.com/
-// https://my-landing-page-1.herokuapp.com/
-// https://my-todolist1.herokuapp.com/
+import videochat from './videochat.png';
 
 const Projects = () => {
   return (
@@ -44,7 +42,7 @@ const Projects = () => {
                       href="https://github.com/bdamor5/my_blogwebsite"
                       target="_blank"
                       className="project__description--link"
-                      title="Github Project"
+                      title="Github"
                     >
                       <i class="fab fa-github"></i>{" "}
                     </a>
@@ -54,7 +52,42 @@ const Projects = () => {
                       className="project__description--link"
                       title="Live Project"
                     >
-                      <i class="fas fa-link"></i>{" "}
+                      <i class="fas fa-link">&nbsp;Live Project</i>{" "}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li className="project">
+              <div className="project__wrapper">
+                <img src={videochat} alt="todolist" className="project__img" />
+                <div className="project__description">
+                  <h3 className="project__description--title">
+                    A Video Chatting App
+                  </h3>
+                  <h4 className="project__description--sub-title">
+                    React, NodeJs, Socket.io, webRTC 
+                  </h4>
+                  <p className="project__description--para">
+                    You can enter you username under 'Name' field and that name will be displayed to you and to your calling mate.To make a call , copy your id by clicking on the respective button and then pass it to your friend.Now tell your friend to paste that id to 'ID to Call' field and then to click on the call button.A notification will pop-up whether to answer or hang up the call.
+                  </p>
+                  <div className="project__description--links">
+                    <a
+                      href="https://github.com/bdamor5/video_callingapp"
+                      target="_blank"
+                      className="project__description--link"
+                      title="Github"
+                    >
+                      <i class="fab fa-github"></i>{" "}
+                    </a>
+                    <a
+                      href="https://video-chat-app5.netlify.app"
+                      target="_blank"
+                      className="project__description--link"
+                      title="Live Project"
+                    >
+                      <i class="fas fa-link">&nbsp;Live Project</i>{" "}
                     </a>
                   </div>
                 </div>
@@ -85,7 +118,7 @@ const Projects = () => {
                       href="https://github.com/bdamor5/Landing_page_1"
                       target="_blank"
                       className="project__description--link"
-                      title="Github Project"
+                      title="Github"
                     >
                       <i class="fab fa-github"></i>{" "}
                     </a>
@@ -95,7 +128,7 @@ const Projects = () => {
                       className="project__description--link"
                       title="Live Project"
                     >
-                      <i class="fas fa-link"></i>{" "}
+                      <i class="fas fa-link">&nbsp;Live Project</i>{" "}
                     </a>
                   </div>
                 </div>
@@ -122,7 +155,7 @@ const Projects = () => {
                       href="https://github.com/bdamor5/My_Todolist"
                       target="_blank"
                       className="project__description--link"
-                      title="Github Project"
+                      title="Github"
                     >
                       <i class="fab fa-github"></i>{" "}
                     </a>
@@ -132,12 +165,14 @@ const Projects = () => {
                       className="project__description--link"
                       title="Live Project"
                     >
-                      <i class="fas fa-link"></i>{" "}
+                      <i class="fas fa-link">&nbsp;Live Project</i>{" "}
                     </a>
                   </div>
                 </div>
               </div>
             </li>
+
+            
           </ul>
         </div>
       </div>

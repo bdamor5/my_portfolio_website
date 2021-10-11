@@ -120,6 +120,18 @@ const Languages = () => {
             <div class="language">
               <figure class="language__img--wrapper">
                 <img
+                  src="https://img.icons8.com/color/2x/postgreesql.png"
+                  alt="PostgreSQL Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">PostgreSQL</span>
+            </div>
+            
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
                   src="https://img.icons8.com/color/240/000000/azure-1.png"
                   alt="Azure Logo"
                   class="language__img"
