@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 import user from './IMG_2510.jpg'
 import hello from './hello.png'
-import resume from '../footer/bhavesh resume.doc'
+import resume from '../footer/BhaveshResume.pdf'
 
 const Header = () => {
     return (
@@ -15,7 +15,7 @@ const Header = () => {
                     <h1 className='about-me__info--title'>
                         Hey! I'm <span className='text--purple'> Bhavesh Damor </span> <span className="wave">👋</span> 
                     </h1>
-                    <p className='about-me__info--para'>I'm a <strong className='text--purple'>MERN stack developer</strong>  with a strong passion for building responsive & performant web applications with great user experience.</p>
+                    <p className='about-me__info--para'>I'm a <strong className='text--purple'>MERN/PERN stack developer</strong>  with a strong passion for building responsive & performant web applications with great user experience.</p>
                     <div className="about-me__links">
                         <a href="https://www.linkedin.com/in/bhavesh-damor-0000b8128/" target='_blank' className='about-me__link' title='Linkedin'>
                             <i class="fab fa-linkedin-in" ></i>                

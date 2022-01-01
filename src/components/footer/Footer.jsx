@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import logo from './logo.PNG'
-import resume from './bhavesh resume.doc'
+import resume from './BhaveshResume.pdf';
 
 const Footer = () => {
     return (
