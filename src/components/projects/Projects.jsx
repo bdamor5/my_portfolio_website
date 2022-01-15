@@ -1,7 +1,6 @@
 import React from "react";
 import "./projects.css";
 import starmart from "./starmart.png";
-import todo from "./todolist.PNG";
 import videochat from './videochat.png';
 import landing from './landingpage.PNG'
 

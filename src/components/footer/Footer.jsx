@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import logo from './logo.PNG'
-import resume from './BhaveshResume.pdf';
+import resume from './Resume.pdf';
 
 const Footer = () => {
     return (
@@ -22,7 +22,7 @@ const Footer = () => {
                         Github
                     </a>
 
-                    <a href="https://www.linkedin.com/in/bhavesh-damor-0000b8128/" target='_blank' className="footer__social--link link__hover-effect link__hover-effect--white">
+                    <a href="https://linkedin.com/in/bhavesh-damor" target='_blank' className="footer__social--link link__hover-effect link__hover-effect--white">
                         LinkedIn
                     </a>
 
