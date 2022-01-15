@@ -1,9 +1,9 @@
 import React from "react";
 import "./projects.css";
-import blog from "./myblogweb.png";
 import starmart from "./starmart.png";
 import todo from "./todolist.PNG";
 import videochat from './videochat.png';
+import landing from './landingpage.PNG'
 
 const Projects = () => {
   return (
@@ -48,6 +48,8 @@ const Projects = () => {
                     >
                       <i class="fas fa-link">&nbsp;Live Project</i>{" "}
                     </a>
+                    <br/>
+                      <p style={{color:'white'}}>(App might take few mins to load up because of heroku dynos)</p>
                   </div>
                 </div>
               </div>
@@ -90,22 +92,20 @@ const Projects = () => {
 
             <li className="project">
               <div className="project__wrapper">
-                <img src={todo} alt="todolist" className="project__img" />
+                <img src={landing} alt="todolist" className="project__img" />
                 <div className="project__description">
                   <h3 className="project__description--title">
-                    Todo list app with local storage
+                    A Landing Page Website
                   </h3>
                   <h4 className="project__description--sub-title">
-                    React
+                    React, Bootstrap
                   </h4>
                   <p className="project__description--para">
-                    A ToDo list app in which you can add, edit & delete any
-                    item.The list gets stored in your browser's local storage so
-                    even if you refresh the webpage, the list wont be removed.
+                    
                   </p>
                   <div className="project__description--links">
                     <a
-                      href="https://github.com/bdamor5/My_Todolist"
+                      href="https://github.com/bdamor5/trvl_landing_page1"
                       target="_blank"
                       className="project__description--link"
                       title="Github"
@@ -113,7 +113,7 @@ const Projects = () => {
                       <i class="fab fa-github"></i>{" "}
                     </a>
                     <a
-                      href="https://my-todolist1.herokuapp.com/"
+                      href="https://landing-page-trvl.netlify.app"
                       target="_blank"
                       className="project__description--link"
                       title="Live Project"
