@@ -3,6 +3,7 @@ import "./projects.css";
 import starmart from "./starmart.png";
 import videochat from './videochat.png';
 import landing from './landingpage.PNG'
+import netflix from './netflix.PNG';
 
 const Projects = () => {
   return (
@@ -25,7 +26,7 @@ const Projects = () => {
                     Ecommerce App using MERN 
                   </h3>
                   <h4 className="project__description--sub-title">
-                    React, Redux, Redux-thunk, Node, Express, MongoDB Atlas, Jsonwebtoken, Cloudinary, Stripe.js
+                    React, Redux, Redux-thunk, Node, Express, MongoDB Atlas, Jsonwebtoken, Cloudinary, Stripe.js, Node-Mailer
                   </h4>
                   <p className="project__description--para">
                    An ecommerce app with admin dashboard.<br/>Admin credentials are : <br/>Email - admin@gmail.com <br/> Password - admin123
@@ -56,20 +57,20 @@ const Projects = () => {
 
             <li className="project">
               <div className="project__wrapper">
-                <img src={videochat} alt="todolist" className="project__img" />
+                <img src={netflix} alt="todolist" className="project__img" />
                 <div className="project__description">
                   <h3 className="project__description--title">
-                    A Video Chatting App
+                    A Simple Netflix Clone
                   </h3>
                   <h4 className="project__description--sub-title">
-                    React, NodeJs, Socket.io, webRTC 
+                  React, Redux, Redux-thunk, Node, Express, MongoDB Atlas, Jsonwebtoken, Cloudinary
                   </h4>
                   <p className="project__description--para">
-                    You can enter you username under 'Name' field and that name will be displayed to you and to your calling mate.To make a call , copy your id by clicking on the respective button and then pass it to your friend.Now tell your friend to paste that id to 'ID to Call' field and then to click on the call button.A notification will pop-up whether to answer or hang up the call.
+                    
                   </p>
                   <div className="project__description--links">
                     <a
-                      href="https://github.com/bdamor5/video_callingapp"
+                      href="https://github.com/bdamor5/my_netflix"
                       target="_blank"
                       className="project__description--link"
                       title="Github"
@@ -77,7 +78,7 @@ const Projects = () => {
                       <i class="fab fa-github"></i>{" "}
                     </a>
                     <a
-                      href="https://video-chat-app5.netlify.app"
+                      href="https://netflix-5.herokuapp.com/"
                       target="_blank"
                       className="project__description--link"
                       title="Live Project"
@@ -123,6 +124,43 @@ const Projects = () => {
                 </div>
               </div>
             </li>
+
+            <li className="project">
+              <div className="project__wrapper">
+                <img src={videochat} alt="todolist" className="project__img" />
+                <div className="project__description">
+                  <h3 className="project__description--title">
+                    A Video Chatting App
+                  </h3>
+                  <h4 className="project__description--sub-title">
+                    React, NodeJs, Socket.io, webRTC 
+                  </h4>
+                  <p className="project__description--para">
+                    You can enter you username under 'Name' field and that name will be displayed to you and to your calling mate.To make a call , copy your id by clicking on the respective button and then pass it to your friend.Now tell your friend to paste that id to 'ID to Call' field and then to click on the call button.A notification will pop-up whether to answer or hang up the call.
+                  </p>
+                  <div className="project__description--links">
+                    <a
+                      href="https://github.com/bdamor5/video_callingapp"
+                      target="_blank"
+                      className="project__description--link"
+                      title="Github"
+                    >
+                      <i class="fab fa-github"></i>{" "}
+                    </a>
+                    <a
+                      href="https://video-chat-app5.netlify.app"
+                      target="_blank"
+                      className="project__description--link"
+                      title="Live Project"
+                    >
+                      <i class="fas fa-link">&nbsp;Live Project</i>{" "}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            
 
             
           </ul>
